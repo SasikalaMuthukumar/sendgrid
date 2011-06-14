@@ -46,5 +46,5 @@ end
   :domain => "http://ec2-50-16-246-102.compute-1.amazonaws.com/",
   :authentication => :plain,
   :user_name => "kranthi.odesk@gmail.com",
-  :password => "weunite"
+  :password => "password"
 }

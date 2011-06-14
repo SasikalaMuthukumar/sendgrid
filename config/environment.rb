@@ -39,3 +39,12 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
+  
+  ActionMailer::Base.smtp_settings = {
+  :address => "smtp.sendgrid.net",
+  :port => '25',
+  :domain => "http://ec2-50-16-246-102.compute-1.amazonaws.com/",
+  :authentication => :plain,
+  :user_name => "kranthi.odesk@gmail.com",
+  :password => "weunite"
+}
